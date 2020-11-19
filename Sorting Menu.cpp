@@ -26,6 +26,7 @@ int main()
     cin >> sz;                        // Выбирается размер массива
     array_main = mal(sz);             // Выделяется память
     menu(PHM);
+    free(array_main);
 }
 
 // FUNCTIONS
